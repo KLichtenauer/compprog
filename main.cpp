@@ -1,40 +1,63 @@
 #include <iostream>
+#include "queue"
+
+struct coinStack {
+    int location;
+    int coins;
+
+    coinStack(int loc, int coin) {
+        location = loc;
+        coins = coin;
+    }
+
+    bool operator<(const coinStack& other) const {
+        return coins < other.coins;
+    }
+};
 
 int main() {
 
     using namespace std;
 
-    string input;
+    int numberOfStacks;
+    int sum;
+    int sumWithOutLargestStack = 0;
+    int largestStack;
+    priority_queue<coinStack> stacks;
+    priority_queue<coinStack> stacksCopy;
 
-    cout << "? insert 42\n? insert 42\n? insert 1 \n? remove" << endl;
-    cin >> input;
 
+    cin >> numberOfStacks;
 
-    if (input == "42") {
-        cout << "! queue";
-    } else if (input == "66") {
-        cout << "! heap";
-    } else if (input == "1") {
-        cout << "? remove" << endl;
-        cin >> input;
-
-        if (input == "66") {
-            cout << "! stack" << endl;
-        } else if (input == "42") {
-            cout << "?  remove" << endl;
-            cin >> input;
-            if (input == "42") {
-                cout << "! qp";
-            } else if (input == "66") {
-                cout << "! set" << endl;
-            } else {
-                cout << "-1" << endl;
-            }
-        } else {
-            cout << "-1" << endl;
-        }
-    } else {
-        cout << "-1" << endl;
+    for (int i = 0; i < numberOfStacks; ++i) {
+        int numberOfCoins;
+        cin >> numberOfCoins;
+        sum += numberOfCoins;
+        stacks.push(coinStack(numberOfStacks, numberOfCoins));
     }
+
+    stacksCopy;
+    largestStack = stacks.top().coins;
+
+
+
+    for (int i = 0; i < numberOfStacks; ++i) {
+        if (i != 0) {
+            sumWithOutLargestStack = sumWithOutLargestStack + stacks.top().coins;
+            stacksCopy.push(stacks.top());
+            stacks.pop();
+        }
+    }
+
+    if (sum % 2 == 0 || largestStack > sumWithOutLargestStack) {
+        cout << "no";
+    } else {
+
+    }
+
     return 0;
 }
+
+
+
+

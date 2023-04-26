@@ -1,3 +1,4 @@
-C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/mytwocents.cpp.dir
+C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
