@@ -20,7 +20,7 @@ int main() {
     using namespace std;
 
     int numberOfStacks;
-    int sum;
+    int sum = 0;
     int sumWithOutLargestStack = 0;
     int largestStack;
     priority_queue<coinStack> stacks;
@@ -33,26 +33,31 @@ int main() {
         int numberOfCoins;
         cin >> numberOfCoins;
         sum += numberOfCoins;
-        stacks.push(coinStack(numberOfStacks, numberOfCoins));
+        stacks.emplace(i + 1, numberOfCoins);
     }
 
-    stacksCopy;
     largestStack = stacks.top().coins;
+    sumWithOutLargestStack = sum - largestStack;
 
 
-
-    for (int i = 0; i < numberOfStacks; ++i) {
-        if (i != 0) {
-            sumWithOutLargestStack = sumWithOutLargestStack + stacks.top().coins;
-            stacksCopy.push(stacks.top());
-            stacks.pop();
-        }
-    }
-
-    if (sum % 2 == 0 || largestStack > sumWithOutLargestStack) {
+    if (sum % 2 != 0 || sumWithOutLargestStack < largestStack) {
         cout << "no";
     } else {
+        cout << "yes" << endl;
+        while (stacks.top().coins != 0) {
+            coinStack stack1 = stacks.top();
+            stacks.pop();
+            coinStack stack2 = stacks.top();
+            stacks.pop();
 
+            stack1.coins = stack1.coins - 1;
+            stacks.emplace(stack1);
+
+            stack2.coins = stack2.coins - 1;
+            stacks.emplace(stack2);
+
+            cout << stack1.location << " " << stack2.location << endl;
+        }
     }
 
     return 0;

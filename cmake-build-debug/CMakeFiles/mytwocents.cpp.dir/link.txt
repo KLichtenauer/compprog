@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/mytwocents.cpp.dir/mytwocents.cpp.o -o mytwocents.cpp 

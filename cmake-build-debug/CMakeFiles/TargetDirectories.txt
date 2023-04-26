@@ -1,4 +1,6 @@
-C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/mytwocents.cpp.dir
-C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Kilian/Documents/UNI/6. Semester/compprog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/main.cpp.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/mytwocents.cpp.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/correctBraces.cpp.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/rain.cpp.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
