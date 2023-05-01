@@ -1,6 +1,7 @@
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/main.cpp.dir
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/mytwocents.cpp.dir
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/correctBraces.cpp.dir
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/rain.cpp.dir
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lichtenaue/CLionProjects/compprog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/main.cpp.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/mytwocents.cpp.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/correctBraces.cpp.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/rain.cpp.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/ApplePieDistribution.cpp.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kilian/Documents/Studium/Semester6/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

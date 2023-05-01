@@ -11,4 +11,4 @@ add_executable(correctBraces.cpp correctBraces.cpp)
 
 add_executable(rain.cpp rain.cpp)
 
-add_executable(rain2.cpp rain2.cpp)
+add_executable(ApplePieDistribution.cpp  ApplePieDistribution.cpp)

@@ -1,5 +1,11 @@
 # ninja log v5
-1	521	7040694489190815	CMakeFiles/untitled.dir/main.cpp.obj	a70cec1cc1dd478
-526	679	7040694490732207	untitled.exe	9c7c34b311e9c91f
-4	476	7040706754135191	CMakeFiles/untitled.dir/main.cpp.obj	a70cec1cc1dd478
-476	625	7040706755606528	untitled.exe	9c7c34b311e9c91f
+2	165	7046467961887986	build.ninja	3adf174c868430e6
+4	139	7041989431251756	untitled.exe	9699f623709e2994
+1	774	7046436158689637	CMakeFiles/main.cpp.dir/main.cpp.obj	e4580d5c896881a1
+777	965	7046436160551325	main.cpp.exe	d54c89e5382ff275
+0	785	7046489412284389	CMakeFiles/ApplePieDistribution.cpp.dir/ApplePieDistribution.cpp.obj	9a0a77d9055a0699
+786	962	7046489414026071	ApplePieDistribution.cpp.exe	101efa07cb04b88f
+4	612	7046492935800039	CMakeFiles/ApplePieDistribution.cpp.dir/ApplePieDistribution.cpp.obj	9a0a77d9055a0699
+613	796	7046492937613885	ApplePieDistribution.cpp.exe	101efa07cb04b88f
+4	609	7046494759576613	CMakeFiles/ApplePieDistribution.cpp.dir/ApplePieDistribution.cpp.obj	9a0a77d9055a0699
+610	762	7046494761077952	ApplePieDistribution.cpp.exe	101efa07cb04b88f
